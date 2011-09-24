@@ -1,0 +1,10 @@
+G:\Sexto Semestre\NET\Laboratorio\sitio\sitio\sitio\bin\sitio.dll
+G:\Sexto Semestre\NET\Laboratorio\sitio\sitio\sitio\bin\sitio.pdb
+G:\Sexto Semestre\NET\Laboratorio\sitio\sitio\sitio\bin\EntityFramework.dll
+G:\Sexto Semestre\NET\Laboratorio\sitio\sitio\sitio\bin\EntityFramework.xml
+G:\Sexto Semestre\NET\Laboratorio\sitio\sitio\sitio\obj\Debug\ResolveAssemblyReference.cache
+G:\Sexto Semestre\NET\Laboratorio\sitio\sitio\sitio\obj\Debug\sitio.dll
+G:\Sexto Semestre\NET\Laboratorio\sitio\sitio\sitio\obj\Debug\sitio.pdb
+G:\Sexto Semestre\NET\Laboratorio\sitio\sitio\sitio\bin\Newtonsoft.Json.Net35.dll
+G:\Sexto Semestre\NET\Laboratorio\sitio\sitio\sitio\bin\Newtonsoft.Json.Net35.pdb
+G:\Sexto Semestre\NET\Laboratorio\sitio\sitio\sitio\bin\Newtonsoft.Json.Net35.xml

@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Registrate</h2>
+
+<!-- Protocolo en cuanto a la contraseña ingresada
+el email formato
+q el usuario no este registrado
+confirmacion de contraseña
+q no haya campos en null
+ -->
+
+<div id="app">
+<form action="/Registro/Alta/" method="post" id="frm1" >    
+    <table cellpadding="0" cellspacing="0" width="300">
+        <tr>      
+            <td>
+                Nombre de usuario
+            </td>             
+            <td>
+                <input type="text" id="usu" name="usu" value="" size="20" />
+            </td>
+        </tr>
+        <tr>  
+            <td>
+                Email
+            </td>                  
+            <td>
+                <input type="text" id="email" name="email" value="" size="20"  />
+            </td>
+        </tr>
+        <tr>      
+            <td>
+                Contraseña
+            </td>               
+            <td>
+                <input type="password" id="pass" name="pass" value="" size="15" />
+            </td>
+        </tr>
+        <tr> 
+            <td>
+                Reingresar contraseña
+            </td>                    
+            <td>
+                <input type="password" id="repass" name="repass" value="" size="15" />
+            </td>
+        </tr>
+        <tr>           
+            <td colspan="2" align="right">
+                <input type="submit" name="ok" id="ok" value="Guardar" /> 
+            </td>
+        </tr>       
+    </table>
+</form>
+</div>
+
+<script type="text/javascript" >
+    Usuario = Backbone.Model.extend({
+        url: 'Registro/Alta/',
+        defaults: {
+            usu: '',
+            email: '',
+            pass: '',
+            repass: ''
+        }
+    });
+
+    var u = new Usuario();
+
+</script>
