@@ -71,8 +71,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Acontecimiento.cs" />
+    <Compile Include="Models\Asustometro.cs" />
+    <Compile Include="Models\Donacion.cs" />
+    <Compile Include="Models\Estilo.cs" />
+    <Compile Include="Models\Historia.cs" />
     <Compile Include="Models\Mapeo.cs" />
     <Compile Include="Models\Persona.cs" />
+    <Compile Include="Models\Rol.cs" />
+    <Compile Include="Models\Sujeto.cs" />
+    <Compile Include="Models\versionadoAcontecimiento.cs" />
+    <Compile Include="Models\versionadoHistoria.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
