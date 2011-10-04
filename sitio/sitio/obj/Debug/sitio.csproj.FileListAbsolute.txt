@@ -18,3 +18,24 @@ F:\Sexto Semestre\NET\Laboratorio\sitio\sitio\sitio\bin\Newtonsoft.Json.Net35.xm
 F:\Sexto Semestre\NET\Laboratorio\sitio\sitio\sitio\obj\Debug\ResolveAssemblyReference.cache
 F:\Sexto Semestre\NET\Laboratorio\sitio\sitio\sitio\obj\Debug\sitio.dll
 F:\Sexto Semestre\NET\Laboratorio\sitio\sitio\sitio\obj\Debug\sitio.pdb
+C:\Users\SysAdmin\Desktop\theitboosh\theitboosh\sitio\sitio\bin\sitio.dll
+C:\Users\SysAdmin\Desktop\theitboosh\theitboosh\sitio\sitio\bin\sitio.pdb
+C:\Users\SysAdmin\Desktop\theitboosh\theitboosh\sitio\sitio\bin\EntityFramework.dll
+C:\Users\SysAdmin\Desktop\theitboosh\theitboosh\sitio\sitio\bin\EntityFramework.xml
+C:\Users\SysAdmin\Desktop\theitboosh\theitboosh\sitio\sitio\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SysAdmin\Desktop\theitboosh\theitboosh\sitio\sitio\obj\Debug\sitio.dll
+C:\Users\SysAdmin\Desktop\theitboosh\theitboosh\sitio\sitio\obj\Debug\sitio.pdb
+C:\Users\SysAdmin\theitboosh\sitio\sitio\bin\sitio.dll
+C:\Users\SysAdmin\theitboosh\sitio\sitio\bin\sitio.pdb
+C:\Users\SysAdmin\theitboosh\sitio\sitio\bin\EntityFramework.dll
+C:\Users\SysAdmin\theitboosh\sitio\sitio\bin\EntityFramework.xml
+C:\Users\SysAdmin\theitboosh\sitio\sitio\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SysAdmin\theitboosh\sitio\sitio\obj\Debug\sitio.dll
+C:\Users\SysAdmin\theitboosh\sitio\sitio\obj\Debug\sitio.pdb
+C:\Documents and Settings\juan moreira.JUAN-IJA9DHES9N\.ssh\theitboosh\sitio\sitio\bin\sitio.dll
+C:\Documents and Settings\juan moreira.JUAN-IJA9DHES9N\.ssh\theitboosh\sitio\sitio\bin\sitio.pdb
+C:\Documents and Settings\juan moreira.JUAN-IJA9DHES9N\.ssh\theitboosh\sitio\sitio\bin\EntityFramework.dll
+C:\Documents and Settings\juan moreira.JUAN-IJA9DHES9N\.ssh\theitboosh\sitio\sitio\bin\EntityFramework.xml
+C:\Documents and Settings\juan moreira.JUAN-IJA9DHES9N\.ssh\theitboosh\sitio\sitio\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\juan moreira.JUAN-IJA9DHES9N\.ssh\theitboosh\sitio\sitio\obj\Debug\sitio.dll
+C:\Documents and Settings\juan moreira.JUAN-IJA9DHES9N\.ssh\theitboosh\sitio\sitio\obj\Debug\sitio.pdb
