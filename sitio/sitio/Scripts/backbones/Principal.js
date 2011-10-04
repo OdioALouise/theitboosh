@@ -3,7 +3,7 @@ jQuery(document).ready(function () {
 
     //Ocultamos imágen del fantasma
     jQuery("#ghost").toggle();
-    jQuery("#vistaHistoria").toggle();
+    jQuery("#dialog-modal").toggle();
    
 
 
@@ -90,10 +90,9 @@ jQuery(document).ready(function () {
             //            jQuery("#vistaHistoria").toggle();
 
 
-            jQuery("#vistaHistoria").load('../Principal/Historia #historia');
+            jQuery("#dialog-modal").load('../Principal/Historia #historia');
 
-            jQuery("#vistaHistoria").dialog({
-                height: 140,
+            jQuery("#dialog-modal").dialog({
                 modal: true
             });
         });

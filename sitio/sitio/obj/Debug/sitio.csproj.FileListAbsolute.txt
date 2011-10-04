@@ -25,13 +25,6 @@ C:\Users\SysAdmin\Desktop\theitboosh\theitboosh\sitio\sitio\bin\EntityFramework.
 C:\Users\SysAdmin\Desktop\theitboosh\theitboosh\sitio\sitio\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\SysAdmin\Desktop\theitboosh\theitboosh\sitio\sitio\obj\Debug\sitio.dll
 C:\Users\SysAdmin\Desktop\theitboosh\theitboosh\sitio\sitio\obj\Debug\sitio.pdb
-C:\Users\SysAdmin\theitboosh\sitio\sitio\bin\sitio.dll
-C:\Users\SysAdmin\theitboosh\sitio\sitio\bin\sitio.pdb
-C:\Users\SysAdmin\theitboosh\sitio\sitio\bin\EntityFramework.dll
-C:\Users\SysAdmin\theitboosh\sitio\sitio\bin\EntityFramework.xml
-C:\Users\SysAdmin\theitboosh\sitio\sitio\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\SysAdmin\theitboosh\sitio\sitio\obj\Debug\sitio.dll
-C:\Users\SysAdmin\theitboosh\sitio\sitio\obj\Debug\sitio.pdb
 C:\Documents and Settings\juan moreira.JUAN-IJA9DHES9N\.ssh\theitboosh\sitio\sitio\bin\sitio.dll
 C:\Documents and Settings\juan moreira.JUAN-IJA9DHES9N\.ssh\theitboosh\sitio\sitio\bin\sitio.pdb
 C:\Documents and Settings\juan moreira.JUAN-IJA9DHES9N\.ssh\theitboosh\sitio\sitio\bin\EntityFramework.dll
@@ -39,3 +32,10 @@ C:\Documents and Settings\juan moreira.JUAN-IJA9DHES9N\.ssh\theitboosh\sitio\sit
 C:\Documents and Settings\juan moreira.JUAN-IJA9DHES9N\.ssh\theitboosh\sitio\sitio\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\juan moreira.JUAN-IJA9DHES9N\.ssh\theitboosh\sitio\sitio\obj\Debug\sitio.dll
 C:\Documents and Settings\juan moreira.JUAN-IJA9DHES9N\.ssh\theitboosh\sitio\sitio\obj\Debug\sitio.pdb
+C:\Users\SysAdmin\theitboosh\sitio\sitio\bin\sitio.dll
+C:\Users\SysAdmin\theitboosh\sitio\sitio\bin\sitio.pdb
+C:\Users\SysAdmin\theitboosh\sitio\sitio\bin\EntityFramework.dll
+C:\Users\SysAdmin\theitboosh\sitio\sitio\bin\EntityFramework.xml
+C:\Users\SysAdmin\theitboosh\sitio\sitio\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SysAdmin\theitboosh\sitio\sitio\obj\Debug\sitio.dll
+C:\Users\SysAdmin\theitboosh\sitio\sitio\obj\Debug\sitio.pdb
