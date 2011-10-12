@@ -39,3 +39,10 @@ C:\Users\SysAdmin\theitboosh\sitio\sitio\bin\EntityFramework.xml
 C:\Users\SysAdmin\theitboosh\sitio\sitio\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\SysAdmin\theitboosh\sitio\sitio\obj\Debug\sitio.dll
 C:\Users\SysAdmin\theitboosh\sitio\sitio\obj\Debug\sitio.pdb
+C:\theitboosh\sitio\sitio\bin\sitio.dll
+C:\theitboosh\sitio\sitio\bin\sitio.pdb
+C:\theitboosh\sitio\sitio\bin\EntityFramework.dll
+C:\theitboosh\sitio\sitio\bin\EntityFramework.xml
+C:\theitboosh\sitio\sitio\obj\Debug\ResolveAssemblyReference.cache
+C:\theitboosh\sitio\sitio\obj\Debug\sitio.dll
+C:\theitboosh\sitio\sitio\obj\Debug\sitio.pdb

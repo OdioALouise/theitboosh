@@ -4,7 +4,7 @@ jQuery(document).ready(function () {
     //Ocultamos imágen del fantasma
     jQuery("#ghost").toggle();
     jQuery("#dialog-modal").toggle();
-   
+
 
 
 
@@ -14,6 +14,7 @@ jQuery(document).ready(function () {
 
         mapa: "",
         latlng: "",
+        url: "traerArreglo",
         myOptions: "",
         historiasgeneral: "",
         initialize: function () {
@@ -61,42 +62,48 @@ jQuery(document).ready(function () {
         this.model.set({ historiasgeneral: new Array() });
 
 
-        // **************PRUEBA
-        //Creamos marcador de prueba
+        Backbone.sync("UPDATE", this.model, { success:
 
-        var latlng = new google.maps.LatLng(-32.325659, -58.083993);
+        function (data) {
+            
+            var arreglogeneral = new Array();
 
-        var marker = new google.maps.Marker({
-            position: latlng,
-            map: this.model.get('mapa'),
-            title: "Hello World!"
-        });
+            arreglogeneral = instModelo.get('historiasgeneral');
+            
+            var contador = 0;
 
+            while (contador < data.length) {
+                var latlng = new google.maps.LatLng(data[contador].geolat, data[contador].geolon);
 
-        //Probamos operaciones con los arreglos        
-        var arreglogeneral = new Array();
-        arreglogeneral = this.model.get('historiasgeneral');
-        arreglogeneral.push(marker);
-
-        //Cambiamos el titulo, a través de la variable de función
-        arreglogeneral[0].setTitle("El mostro de la noche");
+                //Creamos marcador
 
 
+                var marker = new google.maps.Marker({
+                    position: latlng,
+                    map: instModelo.get('mapa'),
+                    title: data[contador].titulo
+                });
 
-        //****************
+                arreglogeneral.push(marker);
+
+                google.maps.event.addListener(marker, 'click', function () {
+                    //            jQuery("#vistaHistoria").toggle();
 
 
-        google.maps.event.addListener(marker, 'click', function () {
-            //            jQuery("#vistaHistoria").toggle();
+                    jQuery("#dialog-modal").load('../Principal/Historia #historia');
 
+                    jQuery("#dialog-modal").dialog({
+                        modal: true
+                    });
+                });
 
-            jQuery("#dialog-modal").load('../Principal/Historia #historia');
+                contador++;
+            }
 
-            jQuery("#dialog-modal").dialog({
-                modal: true
-            });
-        });
+        }
+        }
 
+        );
 
 
     }
