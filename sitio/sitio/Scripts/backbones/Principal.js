@@ -23,6 +23,24 @@ jQuery(document).ready(function () {
             alert("Triggered ");
             });*/
 
+        },
+        quitardelmapa: function () {
+            jQuery.each(this.get("historiasgeneral"), function (index, value) {
+
+                value.setMap(null);
+
+            });
+
+        },
+
+        reponerdelmapa: function () {
+            jQuery.each(this.get("historiasgeneral"), function (index, value) {
+               
+                value.setMap(instModelo.get("mapa"));
+
+            });
+
+
         }
 
     });
@@ -47,10 +65,10 @@ jQuery(document).ready(function () {
         // Seteamos arreglo de opciones para el mapa
 
         this.model.set({ myOptions: {
-            zoom: 15,
+            zoom: 17,
             center: this.model.get('latlng'),
             disableDefaultUI: true,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
+            mapTypeId: google.maps.MapTypeId.SATELLITE
         }
         });
 
@@ -61,15 +79,27 @@ jQuery(document).ready(function () {
 
         this.model.set({ historiasgeneral: new Array() });
 
+        var map = this.model.get("mapa");
+
+        google.maps.event.addListener(map, 'zoom_changed', function () {
+            var zoom = map.getZoom()
+            
+            if (zoom < 17) {
+                instModelo.quitardelmapa();
+            } else {
+                instModelo.reponerdelmapa();
+            }
+        });
+
 
         Backbone.sync("UPDATE", this.model, { success:
 
         function (data) {
-            
+
             var arreglogeneral = new Array();
 
             arreglogeneral = instModelo.get('historiasgeneral');
-            
+
             var contador = 0;
 
             while (contador < data.length) {
@@ -80,6 +110,7 @@ jQuery(document).ready(function () {
 
                 var marker = new google.maps.Marker({
                     position: latlng,
+                    icon: "../../Content/images/casaembrujada.gif",
                     map: instModelo.get('mapa'),
                     title: data[contador].titulo
                 });
